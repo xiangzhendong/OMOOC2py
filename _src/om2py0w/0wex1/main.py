@@ -1,6 +1,6 @@
  # -*- coding:utf-8 -*-
  for line in open('mydiary.txt'):
-     print(line,end='')
+     print(line)
  
  mydiary=open('mydiary.txt','a')
  while True:
@@ -9,7 +9,5 @@
      mydiary.write(content+'\n')
  mydiary.close()
   
- if __name__=="__main__"
-     main()
      
      
